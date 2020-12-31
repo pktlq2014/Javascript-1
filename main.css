@@ -1,0 +1,98 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colorBtn {
+    padding: 0.25rem 0.5rem;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.5rem;
+    /* viết hoa chữ đầu, thường các chữ sau */
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.colorBtn:hover {
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    text-align: center;
+}
+.hexColor {
+    text-transform: capitalize;
+}
+.hex {
+    font-size: 3rem;
+}
+.hexBtn {
+    color: #f15025;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.quoteBtn {
+    margin-top: 2rem;
+    color: #f15025;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.getDataBtn {
+    margin-top: 2rem;
+    color: #f15025;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.increaseBtn {
+    margin-top: 2rem;
+    color: #f15025;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.decreaseBtn {
+    margin-top: 2rem;
+    color: #f15025;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.annouceBtn {
+    margin-top: 2rem;
+    color: #f15025;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.hexBtn:hover {
+    background: rgb(0, 0, 0);
+}
